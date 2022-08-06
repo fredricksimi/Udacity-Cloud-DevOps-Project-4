@@ -55,13 +55,13 @@ source .devops/bin/activate
 * `.circleci` - circleci configuration script
 * `model_data` - ML model data (model, csv data)
 * `output_txt_files` - The project output files (docker, kubernetes)
-    * `docker_out.txt` - run_docker.sh output
-    * `kubernetes_out.txt` - run_kubernetes.sh output
-* `app.py` - python web application entry point file
-* `Dockerfile` - docker image config
-* `make_prediction.sh` - make prediction HTTP call script
-* `Makefile` - make file (install, test, lint steps)
-* `requirements.txt` - web application dependencies (python, libraries)
-* `run_docker.sh` - run docker container script
-* `run_kubernetes.sh` - run kubernetes pod for the web app script
-* `upload_docker.sh` - upload docker image to dicker hub script
+    * `docker_out.txt` - run_docker.sh output file
+    * `kubernetes_out.txt` - run_kubernetes.sh output file
+* `app.py` - A python executable file for the program
+* `Dockerfile` - Docker configuration file
+* `make_prediction.sh` - Prediction HTTP script
+* `Makefile` - A make file that contains execution steps
+* `requirements.txt` - Contains dependencies that will be installed by pip
+* `run_docker.sh` - Execute Docker container script
+* `run_kubernetes.sh` - Script for running Kubernetes for pod
+* `upload_docker.sh` - Script to upload image to DockerHub
