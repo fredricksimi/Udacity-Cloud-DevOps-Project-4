@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/fredricksimi/Udacity-Cloud-DevOps-Project-4.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](<LINK>)
+
 
 ## Project Overview
 
