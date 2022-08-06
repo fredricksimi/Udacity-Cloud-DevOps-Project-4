@@ -1,0 +1,5 @@
+Error from server (AlreadyExists): pods "ml-micro-kubernetes" already exists
+NAME                  READY   STATUS    RESTARTS      AGE
+ml-micro-kubernetes   1/1     Running   1 (59m ago)   98m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
